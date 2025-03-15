@@ -10,15 +10,15 @@ This repository contains the latest version of my **Curriculum Vitae (CV)**, det
 ---
 
 ### **How to View & Download**
-You can view or download my CV using the following options:
-  
-- **Source File (RMarkdown/TeX)**  
-  - The CV is generated using `RMarkdown`, the **vitae** package.
-  - Source files:
-    - [`Dellinger_CV.Rmd`](./Dellinger_CV.Rmd)
+You can view or download my CV using the following options:  
 
-Alternatively, you can preview the PDF in your browser and dowload the file directly:  
-[**View in GitHub Preview**](https://github.com/rob-dellinger/Dellinger_RJ_CV/blob/main/Dellinger_CV.pdf) *(Opens the file in GitHub’s built-in viewer.)*
+### **Download the latest CV:**  
+[**Dellinger_CV.pdf**](https://github.com/rob-dellinger/Dellinger_RJ_CV/raw/main/Dellinger_CV.pdf) *(Click to open or download directly.)*  
+
+### **Source Files (RMarkdown & TeX)**  
+The CV is generated using `RMarkdown` and the **vitae** package.  
+
+- **Main source file:** [`Dellinger_CV.Rmd`](./Dellinger_CV.Rmd)  
 
 ---
 
