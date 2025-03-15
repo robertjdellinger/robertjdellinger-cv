@@ -30,4 +30,3 @@ The CV is generated using `RMarkdown` and the **vitae** package.
 
 ---
 
-Would you like any modifications or additions? 🚀
