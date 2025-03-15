@@ -21,10 +21,8 @@ You can view or download my CV using the following options:
   - Source files:
     - [`Dellinger_CV.Rmd`](./Dellinger_CV.Rmd)
 
-
-Alternatively, you can use the embedded PDF viewer below:  
-
-<iframe src="./Dellinger_CV.pdf" width="100%" height="600px" style="border: none;"></iframe>  
+Alternatively, you can preview the PDF in your browser:  
+[**View in GitHub Preview**](https://github.com/rob-dellinger/Dellinger_RJ_CV/blob/main/Dellinger_CV.pdf) *(Opens the file in GitHub’s built-in viewer.)*
 
 ---
 
