@@ -1,0 +1,282 @@
+---
+name: "Robert J. Dellinger"
+date: "`r format(Sys.time(), '%B, %Y')`"
+qualifications: BS, BA, MS
+address: "UCLA, Department of Atmospheric and Oceanic Sciences, Los Angeles, CA 90095"
+profilepic: Logo.jpg
+phone: (310)880-9842
+pronouns: "he/him, they/them"
+github: "rob-dellinger"
+linkedin: "robertjdellinger"
+orcid: "0009-0009-3524-4041"
+aboutme: "PhD student in Atmospheric and Oceanic Sciences at UCLA. Researching the impacts of climate change on marine organisms, with a focus on biogeochemistry and ecological processes."
+colors:
+  textcolor: "#333333"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+
+# Education
+
+<p>&nbsp;</p>
+
+## **Ph.D. Student, Atmospheric and Oceanic Sciences**  
+University of California, Los Angeles (UCLA) | 2024   - Present  
+Advisors: Drs. Aradhna Tripati & Robert Eagle  
+Research Focus: Biogeochemistry & Climate Change Impacts on Marine Ecosystems  
+
+## **Master of Science (MS), Biological Sciences**
+California State University, Northridge | Sep 2021 - Sep 2024  
+GPA: 3.75  
+Thesis: *Facing Physiological Constraints: The Interactive Effects of Ocean Acidification and Warming on the Energetics of an Intertidal Gastropod, Tegula funebralis*
+
+## **B.A. & B.S., Marine & Coastal Science (B.S.) and International Relations (B.A.)**  
+University of California, Davis | 2017   - 2021  
+GPA: 3.18 | Departmental Citation
+Emphases: Oceans & Earth System (Marine & Coastal Science); Global Environment, Health & Natural Resources (International Relations)
+
+
+<p>&nbsp;</p>
+
+# Research & Professional Experience
+
+## **Graduate Research Assistant**  
+Critical Ecology Lab & Hubbard Brook Experimental Forest (HBEF) 
+NSF Long Term Ecological Research (LTER) Program (May 2024 – January 2025)  
+Supervisors: Dr. Suzanne Pierre  
+
+   
+  - Conducted interdisciplinary research at the Hubbard Brook Experimental Forest (HBEF), examining links between industrial economic activity and ecological disturbances, particularly acid rain-induced changes in Northern Hardwood Forests.
+  - Applied a critical ecology framework to examine how structural racism and classism (resource allocation, residential segregation, and wage differentials) drive air pollution disparities and impact biogeochemical cycles. 
+  - Synthesized and managed large-scale ecological and social datasets in R, integrating atmospheric chemistry, economics, and historical policy impacts into a broader Long-Term Ecological Research (LTER) framework..  
+
+## **Graduate Student Researcher**  
+California State University, Northridge (September 2021   - September 2024) 
+
+   
+  - Designed and executed controlled mesocosm experiments to investigate the interactive effects of ocean acidification and warming on the physiological energetics of the intertidal gastropod *Tegula funebralis*, utilizing thermal performance curves to assess energetic expenditure under future climate scenarios.
+  - Maintained high-precision seawater conditions across 16 experimental tanks by regulating carbonate chemistry (pH, total alkalinity, pCO₂) and temperature, while simulating natural intertidal dynamics using solenoid valve-driven tidal fluctuations.
+  - Conducted routine water chemistry monitoring, including total alkalinity, pH, and carbonate system calculations, using potentiometric pH measurements and titrations (Dickson protocols) with certified reference materials.
+  - Applied advanced statistical modeling in R, employing nonlinear regression, two-way ANOVAs, and thermal performance curve analysis to quantify temperature-dependent metabolic responses.  
+
+## **NSF Research Traineeship (Sustainable Oceans)**  
+National Science Foundation (NSF) (June 2022 – June 2023)  
+
+   
+  - NSF Sustainable Oceans Research Trainee, emphasizing the integration of policy into scientific research to bridge the gap between marine science and decision-making for ecosystem-based management.
+  - Participated in experiential learning through field trips, internships, policy workshops, and basecamp sessions with decision-makers and stakeholders, enhancing skills in science communication and stakeholder engagement.
+  - Presented research at the Sustainable Oceans Symposium, collaborating with scientists, policymakers, and resource managers to align scientific inquiry with policy needs.
+  
+## **Teaching Associate & Graduate Assistant**  
+California State University, Northridge, Department of Biology (August 2021 - June 2022)  
+
+- Instructed introductory biology courses and labs, which included curriculum development, leading discussions, and evaluating student assignments to enhance comprehension of fundamental biology and ecology concepts.
+- Provided support as a graduate assistant for ecology courses, assisting with grading, course materials preparation, and student support.
+- Tutored undergraduates in ecology, marine biology, and general biology.
+
+## **National Oceanographic & Atmospheric Association Internship**  
+NOAA Fisheries, U.S. Department of Commerce (June 2021   - August 2021)
+
+   
+  - Conducted histopathological analysis to assess the impact of contaminants on *Morone americana* (white perch) in an urbanized estuarine system, comparing tissue samples from disturbed vs. undisturbed sites.
+  - Analyzed gill, liver, spleen, and gonad tissue for histological markers of environmental stress, disease, and injury to quantify pollutant-induced physiological changes.
+  - Contributed to a Natural Resource Damage Assessment (NRDA) by analyzing fish tissue pathology and pollutant impacts, supporting NOAA’s efforts to quantify ecosystem injury and inform restoration strategies.
+  - Presented research findings at NOAA’s Student Symposium, communicating research outcomes to scientists and policymakers.
+
+
+## **Senior Environmental Technician**  
+Eco-Alpha Environmental & Engineering Services (June 2020 - August 2021)  
+
+
+- Managed procedural development, equipment procurement, and technician
+training for federal and state water quality compliance monitoring programs (CA State Water Board).
+- Compiled technical reports and ensured adherence to pertinent environmental regulations for client activities. Additionally, handled document formatting and drafted responses for statewide bid and contract requests
+
+## **Undergraduate Researcher, Bay Lab**  
+UC Davis Department of Evolution and Ecology (September 2019   - August 2021)  
+
+   
+  - Conducted a collaborative meta-analysis to assess the evolutionary, ecological, and anthropogenic drivers of the genetic diversity of reef-building corals globally.
+  - Attended weekly lab meetings to discuss research on genomics, physiology, and ecology in response to climate change. Engaged in discussions on genomic sequencing, evolutionary theory, and predictive modeling of climate change impacts on populations of marine species.
+
+## **Independent Undergraduate Researcher, Bodega Marine Lab**  
+Bodega Marine Laboratory (June 2019   - July 2019)  
+
+   
+  - Designed and executed an experiment to assess the impact of microplastics on feeding behavior in *Lytechinus pictus* (white sea urchin) larvae, comparing algae and microplastic (<5mm) consumption.
+  - Presented research findings to the scientific community at the Bodega Marine Lab Symposium.
+
+## **Undergraduate Researcher, Gold Lab**  
+Gold Lab, Bodega Marine Laboratory (July 2019   - September 2019)  
+
+   
+  - Studied the early evolution of animal life, particularly genes related to biomineralization and geochemical biomarkers in Cnidaria (corals, jellyfish, and anemones) using molecular paleontology techniques.
+  - Investigated moon jellyfish (*Aurelia aurita*) as a model organism to understand cell type evolution, tissue regeneration mechanisms, and developmental biology.
+  - Investigated the physiological and genetic mechanisms of anoxia tolerance and regeneration, contributing to the understanding of evolutionary adaptations to hypoxic marine environments.
+
+## **Study Abroad Researcher**  
+Amigos Del Lago NGO, Lake Atitlán, Guatemala (July 2017   - September 2017)
+
+   
+  - Conducted aquatic sampling to assess pelagic processes, biogeochemical gradients, and species diversity at Lake Atitlán, focusing on the effectiveness of native plants in improving water quality and preventing eutrophication.
+  - Established communication (in English and Spanish) with local and governmental stakeholders to explore the connections between ecological and social issues at the lake, in collaboration with local NGOs and researchers.
+
+## **Campus Ambassador**  
+UC Davis Undergraduate Admissions (December 2017   - June 2021)  
+
+   
+  - Represented UC Davis to prospective students, providing insights into campus life, academic programs, and student opportunities through tours and outreach events.
+
+
+# Community Service
+
+## **Queer Sol Collective (NGO), Board Member**
+  - Kumeyee Territory, California (June 2023 - Present)
+  
+## **Anti-Racism Committee, Member**
+  - Department of Earth and Planetary Sciences (June 2020 - June 2021)
+
+## **Gender and Sexuality Commission, Commissioner**
+  - Associated Students of the University of California, Davis (Sept 2019 - June 2021)
+
+## **Ethnic and Cultural Affairs Commission, Commissioner**
+  - Associated Students of the University of California, Davis (Sept 2017 - June 2019)
+
+## **Marine Biology Graduate Student Association, President**
+  - California State University, Northridge (Sept 2022 - June 2023)
+
+## **NoName Book Club, Volunteer**
+  - Radical Hood Library (June 2021 - Present)
+  
+  
+# Fellowships, Awards & Distinctions
+
+Center for Diverse Leadership in Science Fellowship, 2024  
+  *(University of California, Los Angeles, $4,000)*
+  
+UCLA Eugene V. Cota Robles Fellowship, 2024  
+  *(Full tuition & $32,000/year stipend for 4 years)*
+
+Center for Diverse Leadership in Science Fellowship, 2023
+  *(University of California, Los Angeles, $4,000)*
+  
+National Science Foundation Graduate Research Fellowship, 2023  
+  *(Full tuition & $32,000/year stipend for 3 years)*
+
+Sustainable Oceans Scholar, 2022  
+  *(National Science Foundation National Research Traineeship, $1,000)*
+  
+Center for Diverse Leadership in Science Fellowship, 2022  
+  *(University of California, Los Angeles, $1,000)*
+  
+Department Citation, 2021  
+  *(University of California, Davis, Department of Earth and Planetary Sciences)*  
+Honorable Mention, 2021  
+  *(National Science Foundation)* 
+  
+Geology and Marine and Coastal Science Scholarship, 2020  
+  *(University of California, Davis, Department of Earth and Planetary Sciences, $8,000)*
+  
+BML Ambassador Award, 2019  
+  *(University of California, Davis, Bodega Marine Laboratory, $3,000)* 
+  
+Ann E. Pitzer Award, 2018  
+  *(University of California, Davis, Study Abroad, $750)*
+
+# Publications 
+
+**Dellinger, R.J.**, et al. (2025). Ecology and evolutionary biology urgently needs a paradigm shift to alleviate harm and advance LGBTQ+ belonging. *Ecology and Evolution*. (In submission)
+
+**Dellinger, R.J.**, Fields, J.B., & Silbiger, N.J. (2024). Ocean acidification alters thermal performance metrics & increases energetic demand in the intertidal gastropod, *Tegula funebralis*. *Journal of Experimental Biology*. (In preparation).
+
+# Academic Conferences & Colloquia
+
+Abbott, M.H., Huson, V., Dhayalan, T., Fajardo, C., **Dellinger, R.J.**, Reed, K., & Silbiger, N.J. (2023). Intertidal foundation species alter seawater biogeochemistry at high tide [Poster]. *Western Society of Naturalists 104th Annual Meeting*.
+
+**Dellinger, R.J.**, Fields, J.B., & Silbiger, N.J. (2023). Facing physiological constraints: The response of an intertidal gastropod to the interactive effects of ocean acidification and warming [Presentation]. *CSUNposium*.
+
+**Dellinger, R.J.**, Fields, J.B., & Silbiger, N.J. (2023). Facing physiological constraints: The response of an intertidal gastropod to the interactive effects of ocean acidification and warming [Presentation]. *NSF Sustainable Oceans Conference*, University of California, Davis.
+
+**Dellinger, R.J.**, et al., (2022). Roundtable Participant. Pathways to Advance Diversity, Equity, and Inclusion in California’s Coastal and Ocean Sciences: Proceedings and Recommendations from a Series of Virtual Roundtable Discussions Convened by the California Ocean Science Trust. *California Ocean Science Trust*.
+
+**Dellinger, R.J.**, et al. (2022). Roundtable participant. Opportunities and actions in ocean science and technology. *White House Subcommittee on Ocean Science and Technology*.
+
+**Dellinger, R.J.**, Fields, J.B., & Silbiger, N.J. (2022). Facing physiological constraints: The response of an intertidal gastropod to the interactive effects of ocean acidification and warming [Poster]. *Western Society of Naturalists 103rd Annual Conference*.
+
+Wallingford, P.D., Pandori, L.M., Elsberry, L.A., Barnas, D.M., Chiachi, A.E., **Dellinger, R.J.**, Kerlin, J., Singh, R., Zeff, M., & Silbiger, N.J. (2022). Dueling unicorns: Physiological and distributional comparisons of native and range-shifting whelks [Poster]. *Western Society of Naturalists 103rd Annual Meeting*.
+
+**Dellinger, R.J.** (2021). Does industrial contamination in urban coastal rivers cause injury to wild fish? Quantifying injury from contamination to a key member of the estuarine ecosystem, the white perch [Presentation]. *National Oceanographic and Atmospheric Administration Annual Internship Conference*.
+
+Bay, R.A., **Dellinger, R.J.**, Flores, J.A., & Rumberger, C.A. (2021). Assessing the drivers of genetic diversity on coral reefs [Presentation]. *UC Davis Undergraduate Research Conference*.
+
+**Dellinger, R.J.**, (2021). Patterns & Consequences of Microplastic Ingestion by Larval Stages of The White Urchin (Lytechinus pictus) [Presentation]. Bodega Marine Laboratory Symposium, Bodega Bay, CA.
+
+Vriesman, V.P., Sumner, D.Y., Rudolph, M., Rousseau, M., Oskin, M.E., Micheletti, A., Livsey, C.M., Hwang, L., **Dellinger, R.J.**, Chidester, B., (2020). Curtailing Institutional Racism in an Earth and Planetary Sciences Department [Poster]. Geological Society of America 52 (6).
+
+**Dellinger, R.J.**, & Warneke, A. (2020). Designing an effective science website workshop. *101st Western Society of Naturalists Conference*.
+
+Bay, R.A., **Dellinger, R.J.**, & Rumberger, C.A. (2020). Assessing the drivers of genetic diversity on coral reefs [Presentation]. *101st Western Society of Naturalists Conference*.
+
+# Public Engagement
+
+**Fairlee, D.** (2023). Sea Change: A Diverse group of CSUN Marine Scientists are Studying the Nearshore Effects of Warming and Acidifying Oceans. Interview with **Dellinger, R.J.** *CSUN Magazine, Summer 2023*.
+
+**Abraham, A.** (2022). What Non-Monogamy Can Teach Us About Climate Advocacy. Interview with **Dellinger, R.J.** *CurrentlyHQ: Weekly Updates on the Climate Emergency, from Eric Holthaus*. [[Link](https://currentlyhq.com/personal/nonmonogamy-teaches-us-about-climate-advocacy)].
+
+**Dellinger, R.J.** (2021). Celebrating National Hispanic Heritage Month as a NOAA Intern! *NOAA Northeast Fisheries Science Center*. [[Link](https://www.fisheries.noaa.gov/feature-story/fish-student-robert-dellinger-celebrates-national-hispanic-heritage-month)].
+
+**Dellinger, R.J.** (2020). Kitchen Oceanography: Overturning Circulation (Guest post by Robert Dellinger).*Adventures in Oceanography and Teaching* [[Link](https://mirjamglessmer.com/2020/04/16/brine-rejection-and-overturning-but-not-the-way-you-think-guest-post-by-robert-dellinger/)].
+
+**Dellinger, R.J.** (2018). Our Crude Awakening. *Davis Political Review*. [[Link](https://www.davispoliticalreview.com/article/2018/06/28/our-crude-awakening-trumps-offshore-drilling-plan-will-cause-a-global-environmental-crisis?rq=robert%20dellinger)].
+
+**Dellinger, R.J.** (2018). Slavery in Thailand's Fishing Industry. *Davis Political Review*. [[Link](https://www.davispoliticalreview.com/article/2018/12/19/slavery-in-thailands-fishing-industry?rq=robert%20dellinger)].
+
+# Skills
+
+## Language Skills
+- Bilingual (English, Spanish)
+
+## Computer Skills
+- Programming (R, Python), Univariate and multivariate statistics (Excel, R, JMP), Bioinformatics tools (BLAST), Image analysis (ImageJ), Photography (Adobe Photoshop), Design (Adobe Illustrator), Web design (CSS, HTML, LaTeX, Adobe Dreamweaver), Data visualization, Statistical analysis, Database management, Software development, Computational modeling
+
+## Research Skills
+- Boating safety courses/license, Environmental compliance, Environmental data analysis, Protocol development, Environmental review, Environmental and aquatic sampling, Microscopy, Confocal microscopy, Micro-pipetting, Serial dilutions, Titrations, Animal husbandry, Experimental design, Scientific writing, Statistical data analysis, Interdisciplinary collaboration, Environmental policy, Scientific communications, Stakeholder engagement
+
+## Additional Expertise
+- Critical theory, Biogeochemistry, Atmospheric chemistry, Demographic analysis, EPA methods, Geospatial modeling, Climate change science, Thermodynamics, Marine biology, Fisheries science, Ecotoxicology, Policy research, Traditional knowledge integration, LGBTQ+ advocacy, Gender equality, Student affairs, Legislative analysis, Racial justice
+
+
+# Professional Memberships
+
+  - Society for Advancement of Chicanos/Hispanics & Native Americans in Science (SACNAS).
+  - Western Society of Naturalists (WSN).
+  - American Society of Limnology and Oceanography (ASLO).
+  - Ecological Society of America (ESA).
+
+
+# References
+
+**Dr. Aradhna Tripati**  
+UCLA, Department of Atmospheric and Oceanic Sciences  
+- Phone: 626-376-1308, Email: [atripati@ucla.edu](mailto:atripati@ucla.edu)
+
+**Dr. Rachael Bay**  
+UC Davis, Department of Evolution and Ecology  
+- Phone: 530-754-1439, Email: [rbay@ucdavis.edu](mailto:rbay@ucdavis.edu)
+
+**Dr. Tessa Hill**  
+UC Davis, Department of Earth and Planetary Science  
+- Phone: 707-875-1910,  Email: [tmhill@ucdavis.edu](mailto:tmhill@ucdavis.edu)
+
+
+---
+
+\begin{center}
+Made with R Markdown using the \href{https://github.com/mitchelloharawild/vitae}{vitae package}
+\end{center}
+
