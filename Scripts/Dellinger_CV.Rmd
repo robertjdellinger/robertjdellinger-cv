@@ -3,7 +3,7 @@ name: "Robert J. Dellinger"
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BS, BA, MS
 address: "UCLA, Department of Atmospheric and Oceanic Sciences, Los Angeles, CA 90095"
-profilepic: Logo.jpg
+profilepic: "logo/logo.jpg"
 phone: (310)880-9842
 pronouns: "he/him, they/them"
 github: "rob-dellinger"
