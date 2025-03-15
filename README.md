@@ -1,8 +1,7 @@
 
 ---
 
-### ** Dellinger_RJ_CV**
-#### *Curriculum Vitae of Robert J. Dellinger*
+### *Curriculum Vitae of Robert J. Dellinger*
 
 This repository contains the latest version of my **Curriculum Vitae (CV)**, detailing my academic background, research experience, publications, and professional achievements.
 - This repository is **publicly available** for transparency and sharing my academic CV.
@@ -12,16 +11,13 @@ This repository contains the latest version of my **Curriculum Vitae (CV)**, det
 
 ### **How to View & Download**
 You can view or download my CV using the following options:
-
-- ** Direct Download (PDF)**  
-  - [Dellinger_CV.pdf](./Dellinger_CV.pdf) *(Click to download)*
   
-- **📝 Source File (RMarkdown/TeX)**  
+- **Source File (RMarkdown/TeX)**  
   - The CV is generated using `RMarkdown`, the **vitae** package.
   - Source files:
     - [`Dellinger_CV.Rmd`](./Dellinger_CV.Rmd)
 
-Alternatively, you can preview the PDF in your browser:  
+Alternatively, you can preview the PDF in your browser and dowload the file directly:  
 [**View in GitHub Preview**](https://github.com/rob-dellinger/Dellinger_RJ_CV/blob/main/Dellinger_CV.pdf) *(Opens the file in GitHub’s built-in viewer.)*
 
 ---
