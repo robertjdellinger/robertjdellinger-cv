@@ -4,14 +4,13 @@ date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BS, BA, MS
 address: "UCLA, Department of Atmospheric and Oceanic Sciences, Los Angeles, CA 90095"
 profilepic: "logo/logo.jpg"
-phone: (310)880-9842
+phone: "+1 (310) 880-9842"
 pronouns: "he/him, they/them"
 github: "rob-dellinger"
 linkedin: "robertjdellinger"
+website: "https//www.robdellinger.com"
 orcid: "0009-0009-3524-4041"
-aboutme: "PhD student in Atmospheric and Oceanic Sciences at UCLA. Researching the impacts of climate change on marine organisms, with a focus on biogeochemistry and ecological processes."
-colors:
-  textcolor: "#333333"
+aboutme: "Ph.D. student in Atmospheric and Oceanic Sciences at UCLA, researching the impacts of climate change on marine ecosystems, with a focus on biogeochemistry. Learn more at [robdellinger.com](https://www.robdellinger.com)."
 output: vitae::awesomecv
 ---
 
@@ -20,10 +19,9 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
+&nbsp;
 
 # Education
-
-<p>&nbsp;</p>
 
 ## **Ph.D. Student, Atmospheric and Oceanic Sciences**  
 University of California, Los Angeles (UCLA) | 2024   - Present  
@@ -39,9 +37,6 @@ Thesis: *Facing Physiological Constraints: The Interactive Effects of Ocean Acid
 University of California, Davis | 2017   - 2021  
 GPA: 3.18 | Departmental Citation
 Emphases: Oceans & Earth System (Marine & Coastal Science); Global Environment, Health & Natural Resources (International Relations)
-
-
-<p>&nbsp;</p>
 
 # Research & Professional Experience
 
@@ -135,60 +130,67 @@ UC Davis Undergraduate Admissions (December 2017   - June 2021)
 
 # Community Service
 
-## **Queer Sol Collective (NGO), Board Member**
-  - Kumeyee Territory, California (June 2023 - Present)
+## **Radical Imagination Coalition, President**
+  - UCLA Climate Justice Collective (Sep 2024 - Present)
+
+## **Climate Storytelling Project, Co- Founder**
+  - UCLA Center for Diverse Leadership in Science (Sep 2023 - Present)
+
+## **Queer Sol Collective, Board of Directors**
+  - Kumeyaay Territory, San Diego, California (Jun 2023 - Present)
+  
+## **Marine Biology Graduate Student Association, President**
+  - California State University, Northridge (Sep 2022 - June 2023)
   
 ## **Anti-Racism Committee, Member**
-  - Department of Earth and Planetary Sciences (June 2020 - June 2021)
+  - UC Davis Department of Earth and Planetary Sciences (Jun 2020 - Jun 2021)
 
 ## **Gender and Sexuality Commission, Commissioner**
-  - Associated Students of the University of California, Davis (Sept 2019 - June 2021)
+  - Associated Students of the University of California, Davis (Sep 2019 - Jun 2021)
 
 ## **Ethnic and Cultural Affairs Commission, Commissioner**
-  - Associated Students of the University of California, Davis (Sept 2017 - June 2019)
-
-## **Marine Biology Graduate Student Association, President**
-  - California State University, Northridge (Sept 2022 - June 2023)
+  - Associated Students of the University of California, Davis (Sep 2017 - Jun 2019)
 
 ## **NoName Book Club, Volunteer**
-  - Radical Hood Library (June 2021 - Present)
+  - Radical Hood Library (Jun 2021 - Present)
   
   
 # Fellowships, Awards & Distinctions
 
-Sigma Xi Nomination, 2025  
+**Sigma Xi Nomination, 2025**  
   *(Sigma Xi, Scientific Research Honor Society)*
 
-Center for Diverse Leadership in Science Fellowship, 2024  
+**Center for Diverse Leadership in Science Fellowship, 2024**  
   *(University of California, Los Angeles, $4,000)*
-  
-UCLA Eugene V. Cota Robles Fellowship, 2024  
+
+**UCLA Eugene V. Cota Robles Fellowship, 2024**  
   *(Full tuition & $32,000/year stipend for 4 years)*
 
-Center for Diverse Leadership in Science Fellowship, 2023
+**Center for Diverse Leadership in Science Fellowship, 2023**  
   *(University of California, Los Angeles, $4,000)*
-  
-National Science Foundation Graduate Research Fellowship, 2023  
+
+**National Science Foundation Graduate Research Fellowship, 2023** 
   *(Full tuition & $32,000/year stipend for 3 years)*
 
-Sustainable Oceans Scholar, 2022  
+**Sustainable Oceans Scholar, 2022**  
   *(National Science Foundation National Research Traineeship, $1,000)*
   
-Center for Diverse Leadership in Science Fellowship, 2022  
+**Center for Diverse Leadership in Science Fellowship, 2022**  
   *(University of California, Los Angeles, $1,000)*
   
-Department Citation, 2021  
+**Department Citation, 2021**  
   *(University of California, Davis, Department of Earth and Planetary Sciences)*  
-Honorable Mention, 2021  
+
+**Honorable Mention, 2021**  
   *(National Science Foundation)* 
   
-Geology and Marine and Coastal Science Scholarship, 2020  
+**Geology and Marine and Coastal Science Scholarship, 2020**  
   *(University of California, Davis, Department of Earth and Planetary Sciences, $8,000)*
   
-BML Ambassador Award, 2019  
+**BML Ambassador Award, 2019**  
   *(University of California, Davis, Bodega Marine Laboratory, $3,000)* 
   
-Ann E. Pitzer Award, 2018  
+**Ann E. Pitzer Award, 2018**  
   *(University of California, Davis, Study Abroad, $750)*
 
 # Publications 
@@ -204,10 +206,6 @@ Abbott, M.H., Huson, V., Dhayalan, T., Fajardo, C., **Dellinger, R.J.**, Reed, K
 **Dellinger, R.J.**, Fields, J.B., & Silbiger, N.J. (2023). Facing physiological constraints: The response of an intertidal gastropod to the interactive effects of ocean acidification and warming [Presentation]. *CSUNposium*.
 
 **Dellinger, R.J.**, Fields, J.B., & Silbiger, N.J. (2023). Facing physiological constraints: The response of an intertidal gastropod to the interactive effects of ocean acidification and warming [Presentation]. *NSF Sustainable Oceans Conference*, University of California, Davis.
-
-**Dellinger, R.J.**, et al., (2022). Roundtable Participant. Pathways to Advance Diversity, Equity, and Inclusion in California’s Coastal and Ocean Sciences: Proceedings and Recommendations from a Series of Virtual Roundtable Discussions Convened by the California Ocean Science Trust. *California Ocean Science Trust*.
-
-**Dellinger, R.J.**, et al. (2022). Roundtable participant. Opportunities and actions in ocean science and technology. *White House Subcommittee on Ocean Science and Technology*.
 
 **Dellinger, R.J.**, Fields, J.B., & Silbiger, N.J. (2022). Facing physiological constraints: The response of an intertidal gastropod to the interactive effects of ocean acidification and warming [Poster]. *Western Society of Naturalists 103rd Annual Conference*.
 
@@ -227,31 +225,35 @@ Bay, R.A., **Dellinger, R.J.**, & Rumberger, C.A. (2020). Assessing the drivers 
 
 # Public Engagement
 
-**Fairlee, D.** (2023). Sea Change: A Diverse group of CSUN Marine Scientists are Studying the Nearshore Effects of Warming and Acidifying Oceans. Interview with **Dellinger, R.J.** *CSUN Magazine, Summer 2023*.
+Fairlee, D. (2023). Sea Change: A Diverse group of CSUN Marine Scientists are Studying the Nearshore Effects of Warming and Acidifying Oceans. Interview with Dellinger, R.J. *CSUN Magazine, Summer 2023*.
 
-**Abraham, A.** (2022). What Non-Monogamy Can Teach Us About Climate Advocacy. Interview with **Dellinger, R.J.** *CurrentlyHQ: Weekly Updates on the Climate Emergency, from Eric Holthaus*. [[Link](https://currentlyhq.com/personal/nonmonogamy-teaches-us-about-climate-advocacy)].
+Dellinger, R.J., et al., (2022). Roundtable Participant. Pathways to Advance Diversity, Equity, and Inclusion in California’s Coastal and Ocean Sciences: Proceedings and Recommendations from a Series of Virtual Roundtable Discussions Convened by the California Ocean Science Trust. *California Ocean Science Trust*.
 
-**Dellinger, R.J.** (2021). Celebrating National Hispanic Heritage Month as a NOAA Intern! *NOAA Northeast Fisheries Science Center*. [[Link](https://www.fisheries.noaa.gov/feature-story/fish-student-robert-dellinger-celebrates-national-hispanic-heritage-month)].
+Dellinger, R.J., et al. (2022). Roundtable participant. Opportunities and actions in ocean science and technology. *White House Subcommittee on Ocean Science and Technology*.
 
-**Dellinger, R.J.** (2020). Kitchen Oceanography: Overturning Circulation (Guest post by Robert Dellinger).*Adventures in Oceanography and Teaching* [[Link](https://mirjamglessmer.com/2020/04/16/brine-rejection-and-overturning-but-not-the-way-you-think-guest-post-by-robert-dellinger/)].
+Abraham, A. (2022). What Non-Monogamy Can Teach Us About Climate Advocacy. Interview with Dellinger, R.J. *CurrentlyHQ: Weekly Updates on the Climate Emergency, from Eric Holthaus*. \link{https://currentlyhq.com/personal/nonmonogamy-teaches-us-about-climate-advocacy}{[Link]}
 
-**Dellinger, R.J.** (2018). Our Crude Awakening. *Davis Political Review*. [[Link](https://www.davispoliticalreview.com/article/2018/06/28/our-crude-awakening-trumps-offshore-drilling-plan-will-cause-a-global-environmental-crisis?rq=robert%20dellinger)].
+Dellinger, R.J. (2021). Celebrating National Hispanic Heritage Month as a NOAA Intern! *NOAA Northeast Fisheries Science Center*. \link{https://www.fisheries.noaa.gov/feature-story/fish-student-robert-dellinger-celebrates-national-hispanic-heritage-month}{[Link]}
 
-**Dellinger, R.J.** (2018). Slavery in Thailand's Fishing Industry. *Davis Political Review*. [[Link](https://www.davispoliticalreview.com/article/2018/12/19/slavery-in-thailands-fishing-industry?rq=robert%20dellinger)].
+Dellinger, R.J. (2020). Kitchen Oceanography: Overturning Circulation (Guest post by Robert Dellinger).*Adventures in Oceanography and Teaching* \link{https://mirjamglessmer.com/2020/04/16/brine-rejection-and-overturning-but-not-the-way-you-think-guest-post-by-robert-dellinger/}{[Link]}
+
+Dellinger, R.J. (2018). Our Crude Awakening. *Davis Political Review*. \link{https://www.davispoliticalreview.com/article/2018/06/28/our-crude-awakening-trumps-offshore-drilling-plan-will-cause-a-global-environmental-crisis}{[Link]} 
+
+Dellinger, R.J. (2018). Slavery in Thailand's Fishing Industry. *Davis Political Review*. \link{https://www.davispoliticalreview.com/article/2018/12/19/slavery-in-thailands-fishing-industry}{[Link]}
 
 # Skills
 
-## Language Skills
-- Bilingual (English, Spanish)
+## **Language Skills**
+Bilingual (English, Spanish)
 
-## Computer Skills
-- Programming (R, Python), Univariate and multivariate statistics (Excel, R, JMP), Bioinformatics tools (BLAST), Image analysis (ImageJ), Photography (Adobe Photoshop), Design (Adobe Illustrator), Web design (CSS, HTML, LaTeX, Adobe Dreamweaver), Data visualization, Statistical analysis, Database management, Software development, Computational modeling
+## **Computer Skills**
+Programming (R, Python, LaTeX, CSS, HTML), Univariate and multivariate statistics (Excel, R, Python, JMP), Bioinformatics tools (BLAST), Image analysis (ImageJ), Photography (Adobe Photoshop), Design (Adobe Illustrator), Web design (Adobe Dreamweaver), Data visualization, Statistical analysis, Database management, Software development, Computational modeling
 
-## Research Skills
-- Boating safety courses/license, Environmental compliance, Environmental data analysis, Protocol development, Environmental review, Environmental and aquatic sampling, Microscopy, Confocal microscopy, Micro-pipetting, Serial dilutions, Titrations, Animal husbandry, Experimental design, Scientific writing, Statistical data analysis, Interdisciplinary collaboration, Environmental policy, Scientific communications, Stakeholder engagement
+## **Research Skills**
+Boating safety courses/license, Environmental compliance, Environmental data analysis, Protocol development, Environmental review, Environmental and aquatic sampling, Microscopy, Confocal microscopy, Micro-pipetting, Serial dilutions, Titrations, Animal husbandry, Experimental design, Scientific writing, Statistical data analysis, Interdisciplinary collaboration, Environmental policy, Scientific communications, Stakeholder engagement
 
-## Additional Expertise
-- Critical theory, Biogeochemistry, Atmospheric chemistry, Demographic analysis, EPA methods, Geospatial modeling, Climate change science, Thermodynamics, Marine biology, Fisheries science, Ecotoxicology, Policy research, Traditional knowledge integration, LGBTQ+ advocacy, Gender equality, Student affairs, Legislative analysis, Racial justice
+## **Additional Expertise**
+Critical theory, Biogeochemistry, Atmospheric chemistry, Demographic analysis, EPA methods, Geospatial modeling, Climate change science, Thermodynamics, Marine biology, Fisheries science, Ecotoxicology, Policy research, Traditional knowledge integration, LGBTQ+ advocacy, Gender equality, Student affairs, Legislative analysis, Racial justice
 
 
 # Professional Memberships
@@ -260,26 +262,26 @@ Bay, R.A., **Dellinger, R.J.**, & Rumberger, C.A. (2020). Assessing the drivers 
   - Western Society of Naturalists (WSN).
   - American Society of Limnology and Oceanography (ASLO).
   - Ecological Society of America (ESA).
-
+  - Sigma Xi.
 
 # References
 
 **Dr. Aradhna Tripati**  
 UCLA, Department of Atmospheric and Oceanic Sciences  
-- Phone: 626-376-1308, Email: [atripati@ucla.edu](mailto:atripati@ucla.edu)
+- Phone: 626-376-1308, Email: \email{atripati@ucla.edu}
 
 **Dr. Rachael Bay**  
 UC Davis, Department of Evolution and Ecology  
-- Phone: 530-754-1439, Email: [rbay@ucdavis.edu](mailto:rbay@ucdavis.edu)
+- Phone: 530-754-1439, Email: \email{rbay@ucdavis.edu}
 
 **Dr. Tessa Hill**  
 UC Davis, Department of Earth and Planetary Science  
-- Phone: 707-875-1910,  Email: [tmhill@ucdavis.edu](mailto:tmhill@ucdavis.edu)
+- Phone: 707-875-1910,  Email: \email{tmhill@ucdavis.edu}
 
 
 ---
 
 \begin{center}
-Made with R Markdown using the \href{https://github.com/mitchelloharawild/vitae}{vitae package}
+Made with R Markdown using the \link{https://github.com/mitchelloharawild/vitae}{vitae package}
 \end{center}
 

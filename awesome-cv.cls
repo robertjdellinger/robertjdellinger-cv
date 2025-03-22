@@ -8,9 +8,6 @@
 % Claud D. Park <posquit0.bj@gmail.com>
 % http://www.posquit0.com
 %
-% Edited by:
-% Robert J Dellinger
-%
 % Notes:
 % 1) This class file defines the structure and layout of the template file (cv.tex, resume.tex).
 % 2) It has been written in such a way that under most circumstances you
@@ -88,14 +85,7 @@
 \RequirePackage{parskip}
 % Needed to deal hyperlink
 \RequirePackage[hidelinks,unicode]{hyperref}
-% Needed for header
-\RequirePackage{tikz}
-\usetikzlibrary{calc}
 \hypersetup{%
-  colorlinks = true,
-  urlcolor   = [HTML]{FFFFFF},
-  linkcolor  = [HTML]{FFFFFF},
-  citecolor  = [HTML]{FFFFFF},
   pdftitle={},
   pdfauthor={},
   pdfsubject={},
@@ -143,22 +133,22 @@
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
-\definecolor{blue}{HTML}{4CABDB}
+\definecolor{blue}{HTML}{6CE0F1}
 % Text colors
-\colorlet{text}{blue}
-\colorlet{blacktext}{black}
-\colorlet{whitetext}{white}
+\definecolor{darktext}{HTML}{000000}
+\colorlet{text}{darkgray}
+\colorlet{graytext}{gray}
 \colorlet{lighttext}{gray}
 % Awesome colors
 \definecolor{awesome-emerald}{HTML}{00A388}
-\definecolor{awesome-blue}{HTML}{4CABDB}
+\definecolor{awesome-skyblue}{HTML}{4cabdb}
 \definecolor{awesome-red}{HTML}{333333}
 \definecolor{awesome-pink}{HTML}{EF4089}
 \definecolor{awesome-orange}{HTML}{FF6138}
 \definecolor{awesome-nephritis}{HTML}{27AE60}
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
-\colorlet{awesome}{awesome-blue}
+\colorlet{awesome}{awesome-skyblue}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
@@ -166,7 +156,7 @@
 
 % Awesome section color
 \def\@sectioncolor#1#2#3{%
-  \ifbool{acvSectionColorHighlight}{{\color{blue}#1#2#3}}{#1#2#3}%
+  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
 }
 
 
@@ -201,49 +191,49 @@
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{35pt}{1em}\headerfontlight\color{whitetext} #1}}
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{whitetext} #1}}
-\newcommand*{\headerpositionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\scshape\color{whitetext} #1}}
-\newcommand*{\headeraddressstyle}[1]{{\fontsize{9pt}{1em}\headerfont\itshape\color{whitetext} #1}}
-\newcommand*{\headersocialstyle}[1]{{\fontsize{7pt}{1em}\headerfont\color{whitetext} #1}}
-\newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{whitetext} #1}}
-\newcommand*{\footerstyle}[1]{{\fontsize{9pt}{1em}\footerfont\scshape\color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text} #1}}
-\newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{blacktext}{#1}}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfontlight\color{darktext} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{darktext} #1}}
+\newcommand*{\headerpositionstyle}[1]{{\fontsize{7.6pt}{1em}\bodyfont\scshape\color{awesome} #1}}
+\newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\itshape\color{lighttext} #1}}
+\newcommand*{\headersocialstyle}[1]{{\fontsize{7pt}{1em}\headerfont\color{text} #1}}
+\newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
+\newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}}
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{10.5pt}{1em}\bodyfont\bfseries\color{text} #1}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\scshape\color{text} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{text} #1}}
-\newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{text} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of subentry
 \newcommand*{\subentrytitlestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\mdseries\color{text} #1}}
 \newcommand*{\subentrypositionstyle}[1]{{\fontsize{7pt}{1em}\bodyfont\scshape\color{text} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{7pt}{1em}\bodyfontlight\slshape\color{text} #1}}
-\newcommand*{\subentrylocationstyle}[1]{{\fontsize{7pt}{1em}\bodyfontlight\slshape\color{blacktext} #1}}
+\newcommand*{\subentrylocationstyle}[1]{{\fontsize{7pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 \newcommand*{\subdescriptionstyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of honor
-\newcommand*{\honortitlestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{blacktext} #1}}
-\newcommand*{\honorpositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\bfseries\color{blacktext} #1}}
-\newcommand*{\honordatestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{blacktext} #1}}
-\newcommand*{\honorlocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{blacktext} #1}}
+\newcommand*{\honortitlestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{graytext} #1}}
+\newcommand*{\honorpositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\bfseries\color{text} #1}}
+\newcommand*{\honordatestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{graytext} #1}}
+\newcommand*{\honorlocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 
 % For elements of skill
-\newcommand*{\skilltypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{blacktext} #1}}
+\newcommand*{\skilltypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
 
 % For elements of the cover letter
 \newcommand*{\lettersectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\recipientaddressstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{text} #1}}
-\newcommand*{\recipienttitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{blacktext} #1}}
+\newcommand*{\recipienttitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{text} #1}}
 \newcommand*{\lettertitlestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\bfseries\color{text} \underline{#1}}}
 \newcommand*{\letterdatestyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{text} #1}}
 \newcommand*{\lettertextstyle}{\fontsize{10pt}{1.4em}\bodyfontlight\upshape\color{text}}
-\newcommand*{\letternamestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{blacktext} #1}}
+\newcommand*{\letternamestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{text} #1}}
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 
 
@@ -296,13 +286,11 @@
 
 % Defines writer's email (optional)
 % Usage: \email{<email adress>}
-\newcommand*{\email}[1]{%
-  \href{mailto:#1}{\textcolor{blue}{#1}}%
-}
+\newcommand*{\email}[1]{\def\@email{#1}}
 
-% Defines writer's website (optional)
-% Usage: \website{<url>}
-\newcommand*{\website}[1]{\def\@website{#1}}
+% Defines writer's homepage (optional)
+% Usage: \homepage{<url>}
+\newcommand*{\homepage}[1]{\def\@homepage{#1}}
 
 % Defines writer's orcid (optional)
 % Usage: \orcid{<orcid>}
@@ -395,12 +383,6 @@
   \def\@letterenclosure{#2}
 }
 
-% Set the default URL font for hyperref to Roboto (the header font)
-\renewcommand{\UrlFont}{\headerfont}
-% Define a custom command for links:
-\newcommand*{\link}[2]{%
-  \href{#1}{{\headerfont\color{blue}#2}}%
-}
 
 %-------------------------------------------------------------------------------
 %                Commands for extra
@@ -442,10 +424,6 @@
 % Define a header for CV
 % Usage: \makecvheader
 \newcommand*{\makecvheader}[1][C]{%
-  \begin{tikzpicture}[remember picture, overlay]
-    \fill[blue] 
-      (current page.north west) rectangle ($ (current page.north east) + (0,-2in) $);
-  \end{tikzpicture}%
   \newcommand*{\drawphoto}{%
     \ifthenelse{\isundefined{\@photo}}{}{%
       \newlength{\photodim}
@@ -453,7 +431,7 @@
         {\setlength{\photodim}{1.3cm}}%
         {\setlength{\photodim}{1.8cm}}%
       \ifthenelse{\equal{\@photoedge}{edge}}%
-        {\def\@photoborder{blue}}%
+        {\def\@photoborder{darkgray}}%
         {\def\@photoborder{none}}%
       \begin{tikzpicture}%
         \node[\@photoshape, draw=\@photoborder, line width=0.3mm, inner sep=\photodim, fill overzoom image=\@photo] () {};
@@ -474,15 +452,7 @@
   \end{minipage}
   \begin{minipage}[c]{\headertextwidth}
     \ifthenelse{\equal{#1}{L}}{\raggedright}{\ifthenelse{\equal{#1}{R}}{\raggedleft}{\centering}}
-    \ifthenelse{\isundefined{\@website}}%
-  {%
     \headerfirstnamestyle{\@firstname}\headerlastnamestyle{{}\acvHeaderNameDelim\@lastname}%
-  }%
-  {%
-    \href{\@website}{%
-      \headerfirstnamestyle{\@firstname}\headerlastnamestyle{{}\acvHeaderNameDelim\@lastname}%
-    }%
-  }%
     \\[\acvHeaderAfterNameSkip]%
     \ifthenelse{\isundefined{\@position}}{}{\headerpositionstyle{\@position\\[\acvHeaderAfterPositionSkip]}}%
     \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\\[\acvHeaderAfterAddressSkip]}}%
@@ -507,11 +477,11 @@
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \faEnvelope\acvHeaderIconSep\@email%
         }%
-      \ifthenelse{\isundefined{\@website}}%
+      \ifthenelse{\isundefined{\@homepage}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{\@website}{\faHome\acvHeaderIconSep\@website}%
+          \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
         }%
       \ifthenelse{\isundefined{\@orcid}}%
         {}%
@@ -617,7 +587,7 @@
 	\vspace{\acvSectionTopSkip}
 	\sectionstyle{#1}
 	\phantomsection
-	{\color{blue}\vhrulefill{0.9pt}}
+	\color{awesome-skyblue}\vhrulefill{0.9pt}
 }
 
 % Define a subsection for CV
@@ -749,7 +719,7 @@
   \par\addvspace{2.5ex}
   \phantomsection{}
   \lettersectionstyle{#1}
-  \color{awesome}\vhrulefill{0.9pt}
+  \color{gray}\vhrulefill{0.9pt}
   \par\nobreak\addvspace{0.4ex}
 }
 
