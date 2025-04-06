@@ -26,6 +26,7 @@ The CV is generated using `RMarkdown` and the **vitae** package.
 **Robert J. Dellinger**  
 **Ph.D. Student, Atmospheric & Oceanic Sciences, UCLA**  
 **rjdellinger[at]ucla.edu**  
+
 [![GitHub](https://img.shields.io/badge/GitHub-rob--dellinger-181717?logo=github&logoColor=white)](https://github.com/rob-dellinger)  
 
 ---
