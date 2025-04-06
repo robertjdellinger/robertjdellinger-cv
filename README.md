@@ -1,7 +1,7 @@
 
 ---
 
-### *Curriculum Vitae of Robert J. Dellinger*
+# *Curriculum Vitae of Robert J. Dellinger*
 
 This repository contains the latest version of my **Curriculum Vitae (CV)**, detailing my academic background, research experience, publications, and professional achievements.
 - This repository is **publicly available** for transparency and sharing my academic CV.
