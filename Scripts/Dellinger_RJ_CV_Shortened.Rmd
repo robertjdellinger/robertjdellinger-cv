@@ -1,0 +1,107 @@
+---
+name: "Robert J. Dellinger"
+date: "`r format(Sys.time(), '%B, %Y')`"
+qualifications: BS, BA, MS
+address: "UCLA, Department of Atmospheric and Oceanic Sciences, Los Angeles, CA 90095"
+profilepic: "logo/logo.jpg"
+phone: "+1 (310) 880-9842"
+pronouns: "he/him, they/them"
+github: "rob-dellinger"
+linkedin: "robertjdellinger"
+website: "https//www.robdellinger.com"
+orcid: "0009-0009-3524-4041"
+aboutme: "Ph.D. student in Atmospheric and Oceanic Sciences at UCLA, researching the impacts of climate change on marine ecosystems, with a focus on biogeochemistry. Learn more at [robdellinger.com](https://www.robdellinger.com)."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+&nbsp;
+
+# Educational Experience
+
+## **Ph.D. Student, Atmospheric and Oceanic Sciences**  
+University of California, Los Angeles (UCLA) | 2024 – Present  
+Advisors: Dr. Aradhna Tripati & Dr. Robert Eagle  
+
+_Research focus:_ Coral biomineralization and symbiont community dynamics under climate variability and coastal land-use change, integrating multi-proxy geochemistry with ancient DNA (coraDNA).  
+
+## **M.S., Biological Sciences**  
+California State University, Northridge (CSUN) | 2021 – 2024  
+Advisor: Dr. Nyssa Silbiger  
+
+_Research focus:_ Quantitative marine ecology and biogeochemistry, examining the physiological and energetic responses of marine invertebrates to the combined impacts of ocean acidification and warming.  
+
+## **B.S., Marine & Coastal Science, and B.A., International Relations**  
+University of California, Davis | 2017 – 2021  
+*Departmental Citation for Outstanding Achievement and Contributions*  
+
+Study Abroad Program: "Ecological and Social Issues in Lake Atitlán, Guatemala"
+
+# Fellowships & Awards *(Selected)*
+
+UCLA Eugene V. Cota Robles Fellowship (2024–2029)  
+National Science Foundation Graduate Research Fellowship (2021–2026)  
+Center for Diverse Leadership in Science Fellowship (2022–2025)  
+National Science Foundation Science-Policy NRT Award (2022) 
+
+# Research & Professional Experience *(Selected)*
+
+## **Graduate Research Assistant, Critical Ecology Lab (2024–2025)**  
+- Analyzed how social drivers (e.g., structural racism, classism, and unequal resource distribution) shape the geography of industrial emissions, and how these inequality-driven pollutants contribute to acid rain formation and long-term shifts in forest ecosystem function at the Hubbard Brook Experimental Forest (NSF LTER), linking inequality to environmental change through a critical ecology framework.  
+
+## **Graduate Student Researcher, Cal State Northridge (2021–2024)**  
+- Designed and executed mesocosm experiments testing how ocean acidification and warming affect the physiological energetics of intertidal species, maintaining precise carbonate chemistry and temperature treatments, and later applied advanced statistical modeling to quantify thermal performance curves and metabolic responses. 
+
+## **Research Intern, National Oceanic and Atmospheric Administration (2021)**  
+- Conducted histopathological analyses to evaluate contaminant impacts on estuarine fish in urban ecosystems, examining multiple tissues for markers of stress, disease, and injury; contributed to a Natural Resource Damage Assessment (NRDA) by quantifying pollutant-induced physiological changes, and presented findings to scientists and policymakers at NOAA’s Student Symposium.
+
+# Conferences & Colloquia *(Selected)*
+
+Dellinger, R.J., Pierre, S., & Hawkins, P-S. (2025). Linking Social Drivers to Biogeochemical Change: How Inequality-Driven Emissions from Distant Sources Impact Forest Ecosystem Function. *NSF Long-term Ecological Research (LTER) Project Review*, Hubbard Brook Experimental Forest.  
+
+Dellinger, R.J., Hawkins, P-S., & Pierre, S. (2024). Ecology Through The Lens of Critical Theory. *Center for Diverse Leadership in Science Research and Outreach Symposium*, UCLA.  
+
+Dellinger, R.J. & Silbiger, N.J. (2023). Facing Physiological Constraints: The Response of an Intertidal Gastropod to the Interactive Effects of Ocean Acidification and Warming. *NSF Sustainable Oceans Conference*, UC Davis.  
+
+Dellinger, R.J. (2021). Does Industrial Contamination in Urban Coastal Rivers Cause Injury to Wild Fish? Quantifying Injury on a Key Estuarine Species, the White Perch. *NOAA Annual Internship Conference (Remote)*. 
+
+# Leadership & Service *(Selected)*
+
+Co-Founder, \link{https://climatefutures.art}{Climate Futures Studio} (UCLA CDLS, 2023–Present)  
+
+President, Radical Imagination Coalition (UCLA Climate Justice Collective, 2024–Present)
+
+Board of Directors, \link{https://www.thequeersolcollective.org}{Queer Sol Collective} (Nonprofit Organization, 2023–Present): 
+
+President, Marine Biology Graduate Student Association (CSUN, 2022–2023)  
+
+Commissioner, Student Government – Gender & Sexuality / Ethnic & Cultural Affairs (UC Davis, 2017–2021) 
+
+# Skills
+
+## **Language**
+Bilingual in English and Spanish, experienced in cross-cultural and public-facing science communication.
+
+## **Research & Computational**
+Proficient in R, Matlab, and Python for data analysis, visualization, and modeling; experienced with LaTeX, HTML, and CSS for scientific communication and graphic design. Skilled in experimental design, environmental and aquatic sampling, carbonate chemistry monitoring (pH, alkalinity, titrations), mesocosm systems, microscopy and confocal imaging, molecular tools (bioinformatics, DNA metabarcoding, ImageJ), geospatial analysis, and advanced statistical modeling. Strong focus on developing reproducible workflows and bridging ecological, biogeochemical, and social data.
+
+# References
+
+**Dr. Aradhna Tripati**  
+UCLA, Department of Atmospheric and Oceanic Sciences  
+- Phone: 626-376-1308, Email: \email{atripati@ucla.edu}
+
+**Dr. Rachael Bay**  
+UC Davis, Department of Evolution and Ecology  
+- Phone: 530-754-1439, Email: \email{rbay@ucdavis.edu}
+
+---
+
+\begin{center}
+Made with R Markdown using the \link{https://github.com/mitchelloharawild/vitae}{vitae package}
+\end{center}
+
