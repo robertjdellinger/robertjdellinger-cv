@@ -21,22 +21,27 @@ library(vitae)
 
 &nbsp;
 
-# Education
+# Educational Experience
 
 ## **Ph.D. Student, Atmospheric and Oceanic Sciences**  
-University of California, Los Angeles (UCLA) | 2024   - Present  
-Advisors: Drs. Aradhna Tripati & Robert Eagle  
-Research Focus: Biogeochemistry & Climate Change Impacts on Marine Ecosystems  
+University of California, Los Angeles (UCLA) | 2024 – Present  
+Advisors: Dr. Aradhna Tripati & Dr. Robert Eagle  
 
-## **Master of Science (MS), Biological Sciences**
-California State University, Northridge | Sep 2021 - Sep 2024  
-GPA: 3.75  
-Thesis: *Facing Physiological Constraints: The Interactive Effects of Ocean Acidification and Warming on the Energetics of an Intertidal Gastropod, Tegula funebralis*
+_Research focus:_ Coral biomineralization and symbiont community dynamics under climate variability and coastal land-use change, integrating multi-proxy geochemistry with ancient coral DNA (coraDNA).  
 
-## **B.A. & B.S., Marine & Coastal Science (B.S.) and International Relations (B.A.)**  
-University of California, Davis | 2017   - 2021  
-GPA: 3.18 | Departmental Citation
-Emphases: Oceans & Earth System (Marine & Coastal Science); Global Environment, Health & Natural Resources (International Relations)
+_Graduate Certificate (In Progress):_ Leaders in Sustainability, UCLA Institute of the Environment & Sustainability
+
+## **M.S., Biological Sciences**  
+California State University, Northridge (CSUN) | 2021 – 2024  
+Advisor: Dr. Nyssa Silbiger  
+
+_Research focus:_ Quantitative marine ecology and biogeochemistry, examining the physiological and energetic responses of marine invertebrates to the combined impacts of ocean acidification and warming.  
+
+## **B.S., Marine & Coastal Science, and B.A., International Relations**  
+University of California, Davis | 2017 – 2021  
+*Departmental Citation for Outstanding Achievement and Contributions*  
+
+Study Abroad Program: "Ecological and Social Issues in Lake Atitlán, Guatemala"
 
 # Research & Professional Experience
 
