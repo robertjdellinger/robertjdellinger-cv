@@ -1,0 +1,413 @@
+---
+name: "Robert J. Dellinger"
+position: "Ph.D. Student, Atmospheric & Oceanic Science"
+address: "UCLA Atmospheric & Oceanic Sciences, Box 951565, Los Angeles, CA 90095"
+profilepic: "logo/logo.jpg"
+email: "rjdellinger@ucla.edu"
+phone: "+1 (310) 880-9842"
+orcid: "0009-0009-3524-4041"
+github: "rob-dellinger"
+linkedin: "robertjdellinger"
+aboutme: "Oceanic & atmospheric scientist investigating how physical and social drivers of environmental change shape ecosystem patterns, processes, and outcomes across marine and terrestrial systems."
+headcolor: 414141
+date: "`r format(Sys.time(), '%B %Y')`"
+csl: apa-cv.csl
+output: 
+  vitae::awesomecv:
+      keep_tex: true
+      pandoc_args: ["--lua-filter=lua/names.lua", "--template=awesome-cv.tex"]
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae);library(tibble); library(dplyr)
+
+#rmarkdown::pandoc_version()
+```
+
+\vspace{0.5em}
+
+# Educational Experience
+
+## **Ph.D. Student, Atmospheric and Oceanic Sciences**  
+University of California, Los Angeles (UCLA) | 2024 – Present  
+Advisors: Dr. Aradhna Tripati & Dr. Robert Eagle  
+
+_Research focus:_ Coral biomineralization and symbiont community dynamics under climate variability and coastal land-use change, integrating multi-proxy geochemistry with ancient coral DNA (coraDNA).  
+
+_Graduate Certificate:_ Leaders in Sustainability, UCLA Institute of the Environment & Sustainability
+
+## **M.S., Biological Sciences**  
+California State University, Northridge (CSUN) | 2021 – 2024  
+Advisor: Dr. Nyssa Silbiger  
+
+_Research focus:_ Quantitative marine ecology and biogeochemistry, examining the physiological and energetic responses of marine invertebrates to the combined impacts of ocean acidification and warming.  
+
+## **B.S., Marine & Coastal Science, and B.A., International Relations**  
+University of California, Davis | 2017 – 2021 
+
+# Awards & Distinctions 
+
+```{r}
+tribble(
+  ~Year, ~Name, ~Institution, ~Amount, ~Details,
+
+  "2025-2026",
+  "Ideas & Organizing Doctoral Award",
+  "UCLA Luskin Institute on Inequality & Democracy",
+  "$10,000",
+  "Selected as one of three awardees through a highly competitive, cross campus review process, recognizing doctoral research and public programming committed to confronting systems of extraction and inequality.",
+
+  "2024-2025",
+  "Center for Diverse Leadership in Science Fellowship",
+  "University of California, Los Angeles",
+  "$4,000",
+  "Awarded to diverse leaders in science engaging in significant scholastic endeavors, community-building, and creating a positive impact in our communities.",
+
+  "2024",
+  "UCLA Eugene V. Cota Robles Fellowship",
+  "University of California, Los Angeles",
+  "$120,000",
+  "Prestigious UCLA fellowship recognizing academic excellence and contributions, providing multi-year funding and professional development.",
+  
+  "2023-2024",
+  "Center for Diverse Leadership in Science Fellowship",
+  "University of California, Los Angeles",
+  "$4,000",
+   NA,
+
+  "2022-2025",
+  "NSF Graduate Research Fellowship",
+  "National Science Foundation",
+  "$138,000",
+  "Highly competitive and prestigious fellowship awarded to recognize and support graduate students early in their careers who have demonstrated potential for significant achievements in science, technology, mathematics, and engineering.",
+
+  "2022-2023",
+  "Center for Diverse Leadership in Science Fellowship",
+  "University of California, Los Angeles",
+  "$1,000",
+   NA,
+
+  "2021",
+  "Department Citation for Outstanding Achievement & Contributions",
+  "UC Davis Department of Earth and Planetary Sciences",
+   NA,
+  "Prestigious departmental award presented annually to top graduates in recognition of academic excellence and substantial contributions to the department.",
+
+  "2021",
+  "NSF Graduate Research Fellowship Honorable Mention",
+  "National Science Foundation",
+   NA,
+   NA,
+
+  "2020",
+  "Geology and Marine and Coastal Science Scholarship",
+  "UC Davis Department of Earth and Planetary Sciences",
+  "$8,000",
+  "Award made possible by the National Science Foundation Scholarships in STEM (S-STEM) program and given to students who show promise as a Geology or Marine and Coastal Science major.",
+
+  "2019",
+  "Bodega Marine Laboratory Ambassador Award",
+  "UC Davis Coastal and Marine Sciences Institute",
+  "$3,000",
+  "Awarded to students demonstrating academic excellence and provides funding for summer research and coursework at Bodega Marine Laboratory."
+) %>%
+  detailed_entries(
+    where = Year,
+    with  = Name,
+    what  = Institution,
+    when  = Amount,
+    why   = Details
+  )
+```
+
+# Professional Experience
+
+## Research Postions 
+
+```{r}
+
+tribble(
+  ~Position, ~Dates, ~Organization, ~Details,
+  "Graduate Research Assistant, Critical Ecology Lab",
+  "May 2024 - Jan 2025",
+  "Hubbard Brook Experimental Forest (HBEF), NSF Long Term Ecological Research (LTER) Program",
+  list("Conducted interdisciplinary research at the Hubbard Brook Experimental Forest (HBEF), examining links between industrial economic activity and ecological disturbances, particularly acid rain-induced changes in Northern Hardwood Forests.",
+    "Applied a critical ecology framework to examine how structural racism and classism (resource allocation, residential segregation, and wage differentials) drive air pollution disparities and impact biogeochemical cycles.",
+    "Synthesized and managed large-scale ecological and social datasets in R, integrating atmospheric chemistry, economics, and historical policy impacts into a broader Long-Term Ecological Research (LTER) framework."
+  ),
+
+  "Graduate Student Researcher, Quantitative Marine Ecology Lab",
+  "Sep 2021 - Sep 2024",
+  "California State University, Northridge",
+  list(
+    "Designed and executed controlled mesocosm experiments to investigate the interactive effects of ocean acidification and warming on the physiological energetics of marine invertebrates to assess changes in energetic expenditure under future climate change scenarios.",
+    "Collaborated on field and laboratory-based research projects examining ecological and physiological responses of marine organisms to changing environments, within the context of natural variability; applied various physiological and biogeochemistry protocols to support research objectives.",
+    "Applied advanced statistical methods in R, including nonlinear regression, two way ANOVA, and thermal performance curve modeling, to quantify temperature dependent metabolic responses."
+  ),
+
+  "Research Traineee, Sustainable Oceans Science-Policy Program",
+  "Jun 2022 - Jun 2023",
+  "National Science Foundation National Research Traineeship",
+  list(
+    "Training emphasizing the integration of policy into scientific research to bridge the gap between marine science and decision-making for ecosystem-based management.",
+    "Participated in experiential learning through field trips, internships, policy workshops, and basecamp sessions with decision-makers and stakeholders, enhancing skills in science communication and stakeholder engagement.",
+    "Presented research at the Sustainable Oceans Symposium, collaborating with scientists, policymakers, and resource managers to align scientific inquiry with policy needs."
+  ),
+
+  "Research Intern, National Oceanographic & Atmospheric Association",
+  "Jun 2021 - Aug 2021",
+  "NOAA Fisheries, U.S. Department of Commerce",
+  list(
+    "Conducted histopathological analysis to assess the impact of contaminants onMorone americana(white perch) in an urbanized estuarine system, comparing tissue samples from disturbed vs. undisturbed sites.",
+    "Analyzed gill, liver, spleen, and gonad tissue for histological markers of environmental stress, disease, and injury to quantify pollutant-induced physiological changes.",
+    "Contributed to a Natural Resource Damage Assessment (NRDA) by analyzing fish tissue pathology and pollutant impacts, supporting NOAA’s efforts to quantify ecosystem injury and inform restoration strategies.",
+    "Presented research findings at NOAA’s Student Symposium, communicating research outcomes to scientists and policymakers."
+  ),
+
+  "Senior Environmental Technician",
+  "Jun 2020 - Aug 2021",
+  "Eco-Alpha Environmental & Engineering Services",
+  list(
+    "Managed procedural development, equipment procurement, and technician training for federal and state water quality compliance monitoring programs (CA State Water Board).",
+    "Compiled technical reports and ensured adherence to pertinent environmental regulations for client activities. Additionally, handled document formatting and drafted responses for statewide bid and contract requests"
+  ),
+
+  "Undergraduate Researcher, Bay Lab",
+  "Sep 2019 - Aug 2021",
+  "UC Davis Department of Evolution and Ecology",
+  list(
+    "Conducted a collaborative meta-analysis to assess the evolutionary, ecological, and anthropogenic drivers of the genetic diversity of reef-building corals globally.",
+    "Attended weekly lab meetings to discuss research on genomics, physiology, and ecology in response to climate change. Engaged in discussions on genomic sequencing, evolutionary theory, and predictive modeling of climate change impacts on populations of marine species."
+  ),
+
+  "Undergraduate Researcher, Bodega Marine Laboratory",
+  "Jun 2019 - Jul 2019",
+  "UC Davis Coastal and Marine Sciences Institute",
+  list(
+    "Designed and executed an experiment to assess the impact of microplastics on feeding behavior in Lytechinus pictus (white sea urchin) larvae, comparing algae and microplastic (<5mm) consumption.",
+    "Presented research findings to the scientific community at the Bodega Marine Lab Symposium."
+  ),
+
+  "Undergraduate Researcher, Gold Lab",
+  "Jul 2019 - Sep 2019",
+  "Gold Lab, Bodega Marine Laboratory",
+  list(
+    "Studied the early evolution of animal life, particularly genes related to biomineralization and geochemical biomarkers in Cnidaria (corals, jellyfish, and anemones) using molecular paleontology techniques.",
+    "Investigated moon jellyfish as a model organism to understand cell type evolution, tissue regeneration mechanisms, and developmental biology.",
+    "Investigated the physiological and genetic mechanisms of anoxia tolerance and regeneration, contributing to the understanding of evolutionary adaptations to hypoxic marine environments."
+  ),
+
+  "Undergraduate Researcher, UC Davis Study Abroad",
+  "Jul 2017 - Sep 2017",
+  "'Ecological and Social Issues', Lake Atitlán, Guatemala",
+  list(
+    "Conducted aquatic sampling to assess pelagic processes, biogeochemical gradients, and species diversity at Lake Atitlán, focusing on the effectiveness of native plants in improving water quality and preventing eutrophication.",
+    "Established communication (in English and Spanish) with local and governmental stakeholders to explore the connections between ecological and social issues at the lake, in collaboration with local NGOs and researchers."
+  )) %>%
+  detailed_entries(
+    with  = Position,
+    where = Dates,
+    what  = Organization,
+    why   = Details
+  )
+```
+
+## Leadership & Service
+
+```{r}
+
+tribble(
+  ~Position, ~Dates, ~Organization, ~Details,
+  "Radical Imagination Coalition, President",
+  "Sep 2024 - Present",
+  "UCLA Climate Justice Collective",
+  list("Campus wide initiative inviting postdocs, graduate students, and staff to craft bold, creative climate futures centering Black, Brown, Queer, Trans, feminist, disabled, and internationalist perspectives."),
+
+  "Climate Futures Studio, Co-Founder",
+  "Sep 2023 - Present",
+  "UCLA Center for Diverse Leadership in Science",
+  list("Co‑founded and co‑lead Climate Futures Studio, an interdisciplinary collective advancing scientific communication through storytelling that strengthens public understanding and civic imagination around optimstic climate futures."),
+
+  "Queer Sol Collective, Board of Directors",
+  "Jun 2023 - Present",
+  "Kumeyaay Territory, San Diego, California",
+  list(
+    "Queer and Indigenous-led initiative (2SLGBTQIA+) designed to strengthen community healing and connection to nature for QTBIPOC communities."
+  ),
+
+  "Marine Biology Graduate Student Association, President",
+  "Sep 2022 - Jun 2023",
+  "California State University, Northridge",
+  list(
+    "Led readings on marine ecology, organized professional development workshops and outreach events, and created events to foster  community in the marine biology graduate program."
+  ),
+
+  "Noname Book Club, Volunteer",
+  "Jun 2021 - Present",
+  "Radical Hood Library",
+  list(
+    "Committed to distributing knowledge and promoting awareness on critical topics, including race, gender, sexuality, class, disability, and environmental issues, both within and beyond prison walls."
+  ),
+
+  "Anti-Racism Committee, Member",
+  "Jun 2020 - Jun 2021",
+  "UC Davis Department of Earth and Planetary Sciences",
+  list(
+    "Proposed actions to curtail institutional racism that arises out of department structures, curriculum, and culture.",
+    "Worked with students, staff, postdoctoral scholars, and faculty to make substantial changes to the department."
+  ),
+
+  "Gender and Sexuality Commission, Commissioner",
+  "Sep 2019 - Jun 2021",
+  "Associated Students of the University of California, Davis",
+  list(
+    "Reviewed and formulated recommendations for gender, sexuality, and sexual assault programs at UC Davis and across the UC system.",
+    "Made legislative decisions on issues including domestic violence, gender equality, and queer/trans concerns."
+  ),
+
+  "Ethnic and Cultural Affairs Commission, Commissioner",
+  "Sep 2017 - Jun 2019",
+  "Associated Students of the University of California, Davis",
+  list(
+    "Establishing liaisons and achieving rapport with on-campus and off-campus bodies of historically marginalized groups who face barriers in terms of institutionalized and systemic oppression.",
+    "Created new policies, programs, and legislation affecting said communities and their quality of life at the University."
+  ),
+
+  "Campus Ambassador",
+  "Dec 2017 - Jun 2021",
+  "UC Davis Undergraduate Admissions",
+  list(
+    "Represented UC Davis to prospective students, providing insights into campus life, academic programs, and student opportunities through tours and outreach events."
+  )) %>%
+  detailed_entries(
+    with  = Position,
+    where = Dates,
+    what  = Organization,
+    why   = Details
+  )
+```
+
+# Teaching Experience
+
+## Teaching Associate
+
+```{r}
+tribble(
+  ~ Position,
+  ~ Year,
+  ~ Institution,
+  ~ Details,
+  "General Biology & Introductory Biology Labs",
+  "2021-2022",
+  "CSUN, Department of Biology",
+  "Instructed introductory biology courses and labs, which included curriculum development, leading discussions, and evaluating student assignments to enhance comprehension of fundamental biology and ecology concepts."
+) %>%
+  detailed_entries(
+    with = Position,
+    where = Year,
+    what = Institution,
+    why= Details
+  ) 
+```
+
+## Graduate Assistant
+
+```{r}
+tribble(
+  ~ Position,
+  ~ Year,
+  ~ Institution,
+  ~ Details,
+  "Ecology and Society Lecture",
+  "2022",
+  "CSUN, Department of Biology",
+  "Supported course instruction as a graduate assistant by tutoring students, grading assignments, preparing course materials, and providing one on one academic support."
+) %>%
+  detailed_entries(
+    with = Position,
+    where = Year,
+    what = Institution,
+    why = Details
+  ) 
+```
+
+# Publications
+
+```{r}
+bibliography_entries("bibs/journal_articles.bib")
+```
+
+# Conferences & Colloquia
+
+```{r}
+bibliography_entries("bibs/conferences_and_colloquia.bib")
+```
+
+# Public Engagement
+
+## **Exhibitions**
+
+- *Imagining Climate Futures: Climate Storytelling 2075 Anthology II.* Climate Futures Studio. (2025). Queens Council on the Arts, New York, NY, NYC Climate Week Official Event. Curator, multidisciplinary exhibition centered on optimistic climate futures and climate justice. *(Exhibition Curator)*. \href{https://www.climatefutures.art/press-release-imagining-climate-futures-gallery-exhibit-new-york-climate-week-2025}{[Link]}
+
+- *Imagining Climate Futures: Climate Storytelling 2075 Anthology I.* Climate Futures Studio. (2024). Queens Council on the Arts, New York, NY. *(Exhibition Curator)*. \href{https://climatefutures.art/nycw-24}{[Link]}
+
+## **Press and Media**
+
+- *Strike the Heart: The role of artivism in climate advocacy.*: Conversation with environmental activist Kumi Naidoo and climate journalist Yessica. Written by Funes, Yessica. (2025). *Possibilities.* *(Moderator)*.  \href{https://www.possibilities.news/climate-artivism-kumi-naidoo/}{[Link]}
+
+- *Sea change: A diverse group of CSUN marine scientists are studying the nearshore effects of warming and acidifying oceans.* Written by Fairlee, Danielle. (2023). *CSUN Magazine.* *(Interview)*.
+
+- *What non-monogamy can teach us about climate advocacy.* Written by Abraham, Anna. (2022). *CurrentlyHQ.* *(Interview)*. \href{https://web.archive.org/web/20230209133700/https://currentlyhq.com/personal/nonmonogamy-teaches-us-about-climate-advocacy/}{[Link]}
+
+- *IN FISH! Student Robert Dellinger celebrates National Hispanic Heritage Month.* Written by Soulen, Heather. *NOAA Fisheries.* (2021). *(Feature)*. \href{https://web.archive.org/web/20241004120020/https://www.fisheries.noaa.gov/feature-story/fish-student-robert-dellinger-celebrates-national-hispanic-heritage-month}{[Link]}
+
+## **Writing and Blogs**
+
+- *Kitchen oceanography: Overturning circulation.* Written by Glessmer, Miriam, and Dellinger, Robert. (2020). *Adventures in Oceanography and Teaching.* \href{https://mirjamglessmer.com/2020/04/16/brine-rejection-and-overturning-but-not-the-way-you-think-guest-post-by-robert-dellinger/}{[Link]}
+
+- *Our crude awakening.* Written by Dellinger, Robert. (2018). *Davis Political Review.* \href{https://www.davispoliticalreview.com/article/2018/06/28/our-crude-awakening-trumps-offshore-drilling-plan-will-cause-a-global-environmental-crisis}{[Link]}
+
+- *Slavery in Thailand’s fishing industry.* Written by Dellinger, Robert. (2018). *Davis Political Review.* \href{https://www.davispoliticalreview.com/article/2018/12/19/slavery-in-thailands-fishing-industry}{[Link]}
+
+## **Roundtable Discussions**
+
+- *Pathways to advance diversity, equity, and inclusion in California’s coastal and ocean sciences: Proceedings and recommendations from a series of virtual roundtable discussions.* California Ocean Science Trust. (2022). *(Participant)*. \href{https://www.oceansciencetrust.org/s/Pathways-to-Advance-DEI-in-CA-Coastal-and-Ocean-Sciences-2022_rev.pdf}{[Link]}
+
+- *Opportunities and actions in ocean science and technology.* White House Subcommittee on Ocean Science and Technology. (2022). *(Participant)*.
+
+# Skills
+
+## **Language Skills**
+Bilingual (English, Spanish) & Programming (R, MATLAB, Python, LaTeX, CSS, HTML)
+
+## **Computer Skills**
+Univariate and multivariate statistics and modeling (Excel, R, MATLAB, Python, JMP), including hypothesis testing, nonlinear approaches, coomputational modelling, and quantitative workflows used in ecology, biogeochemistry, and environmental datasets. Reproducible research workflows (scripted analyses, documented methods, version controlled outputs), including Git and GitHub for collaboration and code review. Data visualization and scientific figure preparation, and database and data management. Productivity and collaboration platforms, including Microsoft 365 (Word, Excel, PowerPoint) and Google Workspace (Docs, Sheets, Drive). Bioinformatics tools (BLAST) and image analysis (ImageJ). Design and media production tools (Adobe Photoshop, Adobe Illustrator), and web design (Adobe Dreamweaver).
+
+## **Research Skills**
+Environmental compliance and review, technical documentation, and environmental data analysis. Field and laboratory methods including environmental and aquatic sampling, experimental design and experimental system management, project management, carbonate chemistry monitoring and titrations (pH, total alkalinity, carbonate system calculations), microscopy and confocal microscopy, mass spectrometry (ICP-MS), micro pipetting, serial dilutions, basic animal husbandry, and contaminant related injury screening and reporting. Scientific writing, statistical data analysis, interdisciplinary collaboration, science communication, and stakeholder engagement. Boating safety training and field safety preparedness.
+
+## **Communication & Policy**
+Scientific writing and communication across academic, policy, and public audiences, including conference presentations, technical reporting, community outreach, and public facing exhibitions. Stakeholder engagement and facilitation experience in cohort based and collaborative settings, translating complex climate and ecosystem science into accessible narratives. Policy research and legislative analysis, geospatial and demographic analysis, and climate/environmental justice informed framing. Critical theory informed research practice and LGBTQ+/QTBIPOC advocacy experience, with a focus on community grounded science and education.
+
+# Professional Memberships
+
+  - Society for Advancement of Chicanos/Hispanics & Native Americans in Science (SACNAS)
+  - American Society of Limnology and Oceanography (ASLO)
+  - Ecological Society of America (ESA)
+  - Sigma Xi
+
+# References
+
+## **Dr. Aradhna Tripati**
+UCLA, Department of Atmospheric and Oceanic Sciences  
+Phone: 626-376-1308 | Email: [atripati@ucla.edu](mailto:atripati@ucla.edu)
+
+## **Dr. Rachael Bay**  
+UC Davis, Department of Evolution and Ecology  
+Phone: 530-754-1439 | Email: [rbay@ucdavis.edu](mailto:rbay@ucdavis.edu)
+
+## **Dr. Tessa Hill**  
+UC Davis, Department of Earth and Planetary Science  
+Phone: 707-875-1910 | Email: [tmhill@ucdavis.edu](mailto:tmhill@ucdavis.edu)

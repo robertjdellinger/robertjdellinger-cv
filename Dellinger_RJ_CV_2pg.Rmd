@@ -1,0 +1,180 @@
+---
+name: "Robert J. Dellinger"
+position: "Ph.D. Student, Atmospheric & Oceanic Science"
+address: "UCLA Atmospheric & Oceanic Sciences, Box 951565, Los Angeles, CA 90095"
+profilepic: "logo/logo.jpg"
+email: "rjdellinger@ucla.edu"
+phone: "+1 (310) 880-9842"
+orcid: "0009-0009-3524-4041"
+github: "rob-dellinger"
+linkedin: "robertjdellinger"
+aboutme: "Oceanic & atmospheric scientist investigating how physical and social drivers of environmental change shape ecosystem patterns, processes, and outcomes across marine and terrestrial systems."
+headcolor: 414141
+date: "`r format(Sys.time(), '%B %Y')`"
+csl: apa-cv.csl
+output: 
+  vitae::awesomecv:
+      keep_tex: true
+      pandoc_args: ["--lua-filter=lua/names.lua", "--template=awesome-cv.tex"]
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae);library(tibble); library(dplyr)
+
+#rmarkdown::pandoc_version()
+```
+
+\vspace{0.5em}
+
+# Educational Experience
+
+## **Ph.D. Student, Atmospheric and Oceanic Sciences**  
+University of California, Los Angeles (UCLA) | 2024 – Present  
+Advisors: Dr. Aradhna Tripati & Dr. Robert Eagle  
+
+_Research focus:_ Coral biomineralization and symbiont community dynamics under climate variability and coastal land-use change, integrating multi-proxy geochemistry with ancient coral DNA (coraDNA).
+
+## **M.S., Biological Sciences**  
+California State University, Northridge (CSUN) | 2021 – 2024  
+Advisor: Dr. Nyssa Silbiger  
+
+_Research focus:_ Quantitative marine ecology and biogeochemistry, examining the physiological and energetic responses of marine invertebrates to the combined impacts of ocean acidification and warming.  
+
+## **B.S., Marine & Coastal Science, and B.A., International Relations**  
+University of California, Davis | 2017 – 2021 
+*Departmental Citation for Outstanding Achievement and Contributions* 
+
+Study Abroad Program: "Ecological and Social Issues in Lake Atitlán, Guatemala"
+
+# Awards & Distinctions _(Selected)_
+
+```{r}
+tribble(
+  ~Year, ~Name, ~Institution, ~Amount,
+
+  "2025-2026",
+  "Ideas & Organizing Doctoral Award",
+  "UCLA Luskin Institute on Inequality & Democracy",
+  "$10,000",
+
+  "2024-2025",
+  "Center for Diverse Leadership in Science Fellowship",
+  "University of California, Los Angeles",
+  "$4,000",
+
+  "2024",
+  "UCLA Eugene V. Cota Robles Fellowship",
+  "University of California, Los Angeles",
+  "$120,000",
+  
+  "2023-2024",
+  "Center for Diverse Leadership in Science Fellowship",
+  "University of California, Los Angeles",
+  "$4,000",
+
+  "2022-2025",
+  "NSF Graduate Research Fellowship",
+  "National Science Foundation",
+  "$138,000"
+) %>%
+  detailed_entries(
+    where = Year,
+    with  = Name,
+    what  = Institution,
+    when  = Amount
+  )
+```
+
+# Professional Experience _(Selected)_
+
+## **Reseearch Positions**
+
+```{r}
+
+tribble(
+  ~Position, ~Dates, ~Organization, ~Details,
+  "Graduate Research Assistant, Critical Ecology Lab",
+  "May 2024 - Jan 2025",
+  "Hubbard Brook Experimental Forest (HBEF), NSF Long Term Ecological Research (LTER) Program",
+  list("Analyzed how social drivers (e.g., structural racism, classism, and unequal resource distribution) shape the geography of industrial emissions, and how these inequality-driven pollutants contribute to acid rain formation and long-term shifts in forest ecosystem function, linking inequality to environmental change through a critical ecology framework."
+  ),
+
+  "Graduate Student Researcher, Quantitative Marine Ecology Lab",
+  "Sep 2021 - Sep 2024",
+  "California State University, Northridge",
+  list(
+    "Designed and executed experiments to investigate the interactive effects of ocean acidification and warming on the physiological energetics of marine invertebrates and applied advanced statistical modeling to quantify thermal performance curves and metabolic responses; applied various physiological and biogeochemistry protocols to support research objectives."
+  ),
+
+  "Research Intern, National Oceanographic & Atmospheric Association",
+  "Jun 2021 - Aug 2021",
+  "NOAA Fisheries, U.S. Department of Commerce",
+  list(
+    "Conducted histopathological analyses to evaluate contaminant impacts on estuarine fish in urban ecosystems, examining tissues for markers of stress, disease, and injury; contributed to a Natural Resource Damage Assessment (NRDA) by quantifying pollutant-induced physiological changes, and presented findings to scientists and policymakers."
+  )) %>%
+  detailed_entries(
+    with  = Position,
+    where = Dates,
+    what  = Organization,
+    why   = Details
+  )
+```
+
+## **Leadership & Service**
+
+```{r}
+
+tribble(
+  ~Position, ~Dates, ~Organization, ~Details,
+
+  "Climate Futures Studio, Co-Founder",
+  "Sep 2023 - Present",
+  "UCLA Center for Diverse Leadership in Science",
+  list("Co‑founded and co‑lead Climate Futures Studio, an interdisciplinary collective advancing scientific communication through storytelling that strengthens public understanding and civic imagination around optimstic climate futures."),
+
+  "Queer Sol Collective (NGO), Board of Directors",
+  "Jun 2023 - Present",
+  "Kumeyaay Territory, San Diego, California",
+  list(
+    "Queer and Indigenous-led initiative designed to strengthen community healing and connection to nature for QTBIPOC communities."
+  ),
+
+  "Marine Biology Graduate Student Association, President",
+  "Sep 2022 - Jun 2023",
+  "California State University, Northridge",
+  list(
+    "Led readings on marine ecology, organized professional development workshops and outreach events, and created events to foster  community in the marine biology graduate program."
+  )) %>%
+  detailed_entries(
+    with  = Position,
+    where = Dates,
+    what  = Organization,
+    why   = Details
+  )
+```
+
+# Conferences & Colloquia _(Selected)_
+
+**Dellinger, R.J.**, Pierre, S., & Hawkins, P-S. (2025). Linking Social Drivers to Biogeochemical Change. *NSF Long-term Ecological Research (LTER) Project Review*, Hubbard Brook Experimental Forest.  
+
+Dellinger, R.J. & Silbiger, N.J. (2023). Facing Physiological Constraints: The Response of an Intertidal Gastropod to the Interactive Effects of Ocean Acidification and Warming. *NSF Sustainable Oceans Conference*, UC Davis. 
+
+# Skills
+
+## **Languages**
+Bilingual (English, Spanish), Programming (R, MATLAB, Python, LaTeX, CSS, HTML).
+
+## **Computational & Reseach**
+Univariate and multivariate statistics (Excel, MATLAB, R, Python, JMP), Bioinformatics tools (BLAST), Image analysis (ImageJ), Photography (Adobe Photoshop), Design (Adobe Illustrator), Web design (Adobe Dreamweaver), Data visualization, Statistical analysis, Database management, Computational modeling. Boating safety courses/license,  Experimental design, Scientific writing, Environmental compliance, Protocol development, Environmental review, Environmental and aquatic sampling, Microscopy, Confocal microscopy, Micro-pipetting, Serial dilutions, Titrations, Interdisciplinary collaboration, Scientific communications, Stakeholder engagement.
+
+# References
+
+## **Dr. Aradhna Tripati**
+UCLA, Department of Atmospheric and Oceanic Sciences  
+Phone: 626-376-1308 | Email: [atripati@ucla.edu](mailto:atripati@ucla.edu)
+
+## **Dr. Rachael Bay**  
+UC Davis, Department of Evolution and Ecology  
+Phone: 530-754-1439 | Email: [rbay@ucdavis.edu](mailto:rbay@ucdavis.edu)

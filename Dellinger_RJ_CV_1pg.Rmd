@@ -1,0 +1,91 @@
+---
+name: "Robert J. Dellinger"
+position: "Ph.D. Student, Atmospheric & Oceanic Science"
+address: "UCLA Atmospheric & Oceanic Sciences, Box 951565, Los Angeles, CA 90095"
+profilepic: "logo/logo.jpg"
+email: "rjdellinger@ucla.edu"
+phone: "+1 (310) 880-9842"
+orcid: "0009-0009-3524-4041"
+github: "rob-dellinger"
+linkedin: "robertjdellinger"
+aboutme: "Oceanic & atmospheric scientist investigating how physical and social drivers of environmental change shape ecosystem patterns, processes, and outcomes across marine and terrestrial systems."
+headcolor: 414141
+date: "`r format(Sys.time(), '%B %Y')`"
+csl: apa-cv.csl
+output: 
+  vitae::awesomecv:
+      keep_tex: true
+      pandoc_args: ["--lua-filter=lua/names.lua", "--template=awesome-cv.tex"]
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae);library(tibble); library(dplyr)
+
+#rmarkdown::pandoc_version()
+```
+
+\vspace{0.5em}
+
+# Educational Experience & Merit
+
+## **Ph.D. Student, Atmospheric and Oceanic Sciences**  
+University of California, Los Angeles (UCLA) | 2024 – Present  
+
+## **M.S., Biological Sciences**  
+California State University, Northridge (CSUN) | 2021 – 2024  
+
+## **B.S., Marine & Coastal Science, and B.A., International Relations**  
+University of California, Davis | 2017 – 2021 | *Departmental Citation for Outstanding Achievement*
+
+**_Selected Fellowships & Awards:_** National Science Foundation (NSF) Graduate Research Fellow (2021–2026), UCLA Eugene V. Cota Robles Fellow (2024-Present), UCLA Center for Diverse Leadership in Science Fellow (2022–2026), UCLA Luskin Institute on Inequality and Democracy Doctoral Award (2025),  NSF Science-Policy NRT Award (2022)
+
+# Selected Research Experience & Leadership 
+
+```{r}
+
+tribble(
+  ~Position, ~Dates, ~Organization, ~Details,
+  "Graduate Research Assistant, Critical Ecology Lab",
+  "May 2024 - Jan 2025",
+  "Hubbard Brook Experimental Forest (HBEF), NSF Long Term Ecological Research (LTER) Program",
+  list("Analyzed how social drivers shape the geography of industrial emissions, and how these inequality-driven pollutants contribute to acid rain formation and long-term shifts in forest ecosystem function at the Hubbard Brook Experimental Forest (NSF LTER)"
+  ),
+
+  "Graduate Student Researcher, Quantitative Marine Ecology Lab",
+  "Sep 2021 - Sep 2024",
+  "California State University, Northridge",
+  list(
+    "Designed and executed mesocosm experiments testing how ocean acidification and warming affect the physiological energetics of intertidal species, maintaining precise carbonate chemistry and temperature treatments, and applied advanced statistical modeling to quantify metabolic responses."
+  ),
+
+  "Research Intern, National Oceanographic & Atmospheric Association",
+  "Jun 2021 - Aug 2021",
+  "NOAA Fisheries, U.S. Department of Commerce",
+  list(
+    "Conducted histopathological analyses to evaluate contaminant impacts on urban ecosystems, contributing to a Natural Resource Damage Assessment and communicating results to scientists and policymakers."),
+
+  "Co-Founder, Climate Futures Studio",
+  "Jun 2021 - Aug 2021",
+  "UCLA Center for Diverse Leadership & Luskin Institute for Democracy & Inequality",
+  list(
+    "Co-founded and co-lead Climate Futures Studio, an interdisciplinary collective advancing scientific communication through storytelling that strengthens public understanding and civic imagination around climate futures."
+  )) %>%
+  detailed_entries(
+    with  = Position,
+    where = Dates,
+    what  = Organization,
+    why   = Details
+  )
+```
+
+## **Selected Conferences & Colloquia**
+
+Dellinger, R.J., Pierre, S., & Hawkins, P-S. (2025). Linking Social Drivers to Biogeochemical Change. *NSF Long-term Ecological Research (LTER) Project Review*, Hubbard Brook Experimental Forest.  
+
+Dellinger, R.J. & Silbiger, N.J. (2023). Interactive effects of ocean acidification and warming on intertidal energetics. *NSF Sustainable Oceans Conference*, UC Davis.  
+
+## **Skills**
+
+Bilingual (English and Spanish. R, Python, MATLAB, LaTeX, HTML/CSS, statistics and modeling, data visualization, database management. Policy analysis, writing, scientific communication. Experimental design, environmental sampling, pipetting, microscopy and confocal imaging, geospatial analysis, and computational modeling.
