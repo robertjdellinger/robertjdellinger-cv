@@ -87,12 +87,18 @@
 \RequirePackage[skins]{tcolorbox}
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
+% Highlight color 
+\RequirePackage{soul}
+\sethlcolor{cyan}
 % Needed to deal hyperlink
 \RequirePackage[hidelinks,unicode]{hyperref}
+\urlstyle{same}
+\renewcommand{\UrlFont}{\bodyfontlight}
 \hypersetup{%
   colorlinks = true,
   urlcolor   = cyan,
   linkcolor  = cyan,
+  citecolor  = cyan,
   pdftitle={},
   pdfauthor={},
   pdfsubject={},

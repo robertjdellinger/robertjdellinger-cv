@@ -3,8 +3,8 @@ name: "Robert J. Dellinger"
 position: "Ph.D. Student, Atmospheric & Oceanic Science"
 address: "UCLA Atmospheric & Oceanic Sciences, Box 951565, Los Angeles, CA 90095"
 profilepic: "logo/logo.jpg"
+www: "robertjdellinger.com"
 email: "rjdellinger@ucla.edu"
-phone: "+1 (310) 880-9842"
 orcid: "0009-0009-3524-4041"
 github: "rob-dellinger"
 linkedin: "robertjdellinger"
@@ -53,13 +53,19 @@ University of California, Davis | 2017 – 2021
 tribble(
   ~Year, ~Name, ~Institution, ~Amount, ~Details,
 
-  "2025-2026",
+  "2026",
+  "Community, Equity, Learning, and Persistence (CELP) Scholar",
+  "Aquarium of the Pacific",
+  "$10,000",
+  "Selected as one of fifteen recipients of the Aquarium of the Pacific's 2026 CELP Scholar Program, supporting students in ocean-related fields.",
+  
+  "2025",
   "Ideas & Organizing Doctoral Award",
   "UCLA Luskin Institute on Inequality & Democracy",
   "$10,000",
   "Selected as one of three awardees through a highly competitive, cross campus review process, recognizing doctoral research and public programming committed to confronting systems of extraction and inequality.",
 
-  "2024-2025",
+  "2022-2026",
   "Center for Diverse Leadership in Science Fellowship",
   "University of California, Los Angeles",
   "$4,000",
@@ -349,7 +355,7 @@ bibliography_entries("bibs/conferences_and_colloquia.bib")
 
 ## **Exhibitions**
 
-- *Imagining Climate Futures: Climate Storytelling 2075 Anthology II.* Climate Futures Studio. (2025). Queens Council on the Arts, New York, NY, NYC Climate Week Official Event. Curator, multidisciplinary exhibition centered on optimistic climate futures and climate justice. *(Exhibition Curator)*. \href{https://www.climatefutures.art/press-release-imagining-climate-futures-gallery-exhibit-new-york-climate-week-2025}{[Link]}
+- *Imagining Climate Futures: Climate Storytelling 2075 Anthology II.* Climate Futures Studio. (2025). Queens Council on the Arts, New York, NY, NYC Climate Week Official Event. *(Exhibition Curator)*. \href{https://www.climatefutures.art/press-release-imagining-climate-futures-gallery-exhibit-new-york-climate-week-2025}{[Link]}
 
 - *Imagining Climate Futures: Climate Storytelling 2075 Anthology I.* Climate Futures Studio. (2024). Queens Council on the Arts, New York, NY. *(Exhibition Curator)*. \href{https://climatefutures.art/nycw-24}{[Link]}
 
